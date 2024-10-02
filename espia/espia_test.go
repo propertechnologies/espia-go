@@ -64,7 +64,7 @@ func TestTrack(t *testing.T) {
 
 	SetPermanentMetadata("user_id", 12345)
 
-	err := Track("button_click", map[string]interface{}{
+	err := Track("button_click", Metadata{
 		"button_name": "submit",
 	}, nil)
 

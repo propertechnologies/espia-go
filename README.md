@@ -32,7 +32,7 @@ import "github.com/propertechnologies/espia-go/espia"
 
 func main() {
     // Track an event with optional metadata
-    err := espia.Track("category_label", map[string]interface{}{
+    err := espia.Track("category_label", espia.Metadata{
         "foo": "optional object",
     }, nil)
 

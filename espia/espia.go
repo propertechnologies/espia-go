@@ -36,7 +36,7 @@ var (
 	source   string
 	session  string
 	enabled  = true
-	metadata = make(map[string]interface{})
+	metadata = make(Metadata)
 	mu       sync.RWMutex
 )
 
