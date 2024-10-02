@@ -44,7 +44,7 @@ func main() {
 
 ## Features
 
-Automatic Session Generation: Automatically creates a session ID for each user, unless provided.
-Metadata Handling: Supports permanent metadata that is included with every event, along with event-specific metadata.
-Flexible Configuration: Allows enabling or disabling tracking, custom session management, and more.
+- Automatic Session Generation: Automatically creates a session ID for each user, unless provided.
+- Metadata Handling: Supports permanent metadata that is included with every event, along with event-specific metadata.
+- Flexible Configuration: Allows enabling or disabling tracking, custom session management, and more.
 
